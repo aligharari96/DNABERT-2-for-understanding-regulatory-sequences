@@ -1,0 +1,4 @@
+cudaEpoch: 0	Loss: 1.1305761188268661	Validation Accuracy: 0.7245
+Epoch: 10	Loss: 0.9654532112181187	Validation Accuracy: 0.7245
+test performance:
+Test accuracy: 0.7525	Precision: 0.0	Recall0.0
