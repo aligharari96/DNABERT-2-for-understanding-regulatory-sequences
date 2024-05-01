@@ -24,15 +24,7 @@ to run the experiments for the second task use the following command:
 ```bash
 python main.py --task 2 --epochs 20000 --batch_size 128 --lr 0.0001 --results_folder "task_2_results" --data_dir "data/"
 ```
-```python
-from my_awesome_project import MyAwesomeClass
-
-# Create an instance of MyAwesomeClass
-awesome_instance = MyAwesomeClass()
-
-# Call a method of MyAwesomeClass
-awesome_instance.do_something_awesome()
-```
+Place the data files in the 'data_dir' directory. For the second task, name the files as follows: 'cancer_train.ftr', 'cancer_test.ftr', and 'cancer_val.ftr'. For the first task, name the files as 'cell_specifity_train.ftr', 'cell_specifity_val.ftr', and 'cell_specifity_test.ftr'. All results will be saved in the 'results_folder' directory.
 
 ## Contributing
 
