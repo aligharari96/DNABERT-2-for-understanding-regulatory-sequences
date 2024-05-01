@@ -15,6 +15,15 @@ general description of the command line prompt is:
 ```bash
 python main.py --task --epochs --batch_size --lr --results_folder --data_dir
 ```
+to run the experiments for the first task use the following command:
+```bash
+python main.py --task 1 --epochs 20000 --batch_size 128 --lr 0.0001 --results_folder "task_1_results" --data_dir "data/"
+```
+
+to run the experiments for the second task use the following command:
+```bash
+python main.py --task 2 --epochs 20000 --batch_size 128 --lr 0.0001 --results_folder "task_2_results" --data_dir "data/"
+```
 ```python
 from my_awesome_project import MyAwesomeClass
 
