@@ -25,7 +25,4 @@ to run the experiments for the second task use the following command:
 python main.py --task 2 --epochs 20000 --batch_size 128 --lr 0.0001 --results_folder "task_2_results" --data_dir "data/"
 ```
 Place the data files in the 'data_dir' directory. For the second task, name the files as follows: 'cancer_train.ftr', 'cancer_test.ftr', and 'cancer_val.ftr'. For the first task, name the files as 'cell_specifity_train.ftr', 'cell_specifity_val.ftr', and 'cell_specifity_test.ftr'. All results will be saved in the 'results_folder' directory.
-
-## Contributing
-
-We welcome contributions! If you'd like to contribute to My Awesome Project, please fork this repository and submit a pull request.
+I have also included the downloaded files used for preparing data in the 'master_dataset.ipynb' notebook to avoid download issues and speed up execution time. Ideally, I would have placed them in a folder, but I ran out of time.
